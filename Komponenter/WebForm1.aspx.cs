@@ -20,18 +20,13 @@ namespace Komponenter
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            HyperLink1.Text = "Hyperlink..";
+            HyperLink1.NavigateUrl = "http://www.google.com";
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "Textbox...";
+            TextBox1.Visible = false;
         }
 
-        protected void Button4_Click(object sender, EventArgs e)
-        {
-            Panel1.GroupingText = "Panel";
-        }
-       
     }
 }

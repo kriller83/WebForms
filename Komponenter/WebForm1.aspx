@@ -8,16 +8,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-        <asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Panel ID="Panel1" runat="server"></asp:Panel>
-        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" Width="90px"/>
-        <asp:Button ID="Button2" runat="server" Text="Button" OnClick="Button2_Click" />
-        <asp:Button ID="Button3" runat="server" Text="Button" OnClick="Button3_Click" />  
-        <asp:Button ID="Button4" runat="server" Text="Button" OnClick="Button4_Click" />
-    </div>
+        <div>
+            <asp:Panel ID="Panel1" runat="server" BorderStyle="Solid" Height="200">
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" Width="90px" Height="100px" />
+                <asp:Button ID="Button2" runat="server" Text="Button" OnClick="Button2_Click" Width="90px" Height="100px" />
+                <asp:Button ID="Button3" runat="server" Text="Button" OnClick="Button3_Click" Width="90px" Height="100px" />
+            </asp:Panel>
+            <asp:TextBox ID="TextBox1" runat="server" ForeColor="Yellow" BackColor="red"></asp:TextBox>
+            <asp:Label ID="Label1" runat="server" Text="Label" Font-Bold="True" ForeColor="green"></asp:Label>
+            <asp:HyperLink ID="HyperLink1" runat="server" BackColor="Green">HyperLink</asp:HyperLink>
+        </div>
     </form>
 </body>
 </html>
