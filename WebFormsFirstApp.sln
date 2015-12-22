@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hellooo World", "Hellooo Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komponenter", "Komponenter\Komponenter.csproj", "{AF142E8C-46B0-4910-BD7A-AB418ED60FBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{B3AD413C-0921-4F85-95EB-E327BC7FB727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AF142E8C-46B0-4910-BD7A-AB418ED60FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF142E8C-46B0-4910-BD7A-AB418ED60FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF142E8C-46B0-4910-BD7A-AB418ED60FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AD413C-0921-4F85-95EB-E327BC7FB727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AD413C-0921-4F85-95EB-E327BC7FB727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AD413C-0921-4F85-95EB-E327BC7FB727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AD413C-0921-4F85-95EB-E327BC7FB727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
